@@ -1,10 +1,11 @@
-name: HolaMundo
+name: CurosActs
 
 on: [push]
 
 jobs:
-  runs-on: ubuntu-latest
+  build: Test1
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: prueba1
-      run: echo "TEST CORRECTO"
+    steps:
+      - name: prueba1
+        run: echo "TEST CORRECTO"
