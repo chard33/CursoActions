@@ -16,3 +16,10 @@ jobs:
     steps:
     - name: prueba2
       run: echo "TEST 2 CORRECTO"
+
+  TrabajoTest2:
+    runs-on: ubuntu-latest
+    needs: Test1
+    steps:
+    - name: prueba1
+      run: echo "Trabajo Correcto"
