@@ -1,0 +1,10 @@
+name: HolaMundo
+
+on: [push]
+
+jobs:
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: prueba1
+      run: echo "TEST CORRECTO"
