@@ -3,9 +3,9 @@ name: CurosActs
 on: [push]
 
 jobs:
-  build: Test1
+  Test1:
     runs-on: ubuntu-latest
 
     steps:
-      - name: prueba1
+    - name: prueba1
         run: echo "TEST CORRECTO"
