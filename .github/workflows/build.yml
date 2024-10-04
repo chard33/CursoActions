@@ -10,7 +10,7 @@ jobs:
     - name: prueba1
       run: echo "TEST CORRECTO"
   
-  build: Test2
+  Test2:
     runs-on: ubuntu-lastest
 
     steps:
