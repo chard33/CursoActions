@@ -8,4 +8,4 @@ jobs:
 
     steps:
     - name: prueba1
-        run: echo "TEST CORRECTO"
+      run: echo "TEST CORRECTO"
