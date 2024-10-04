@@ -9,3 +9,10 @@ jobs:
     steps:
     - name: prueba1
       run: echo "TEST CORRECTO"
+  
+  build: Test2
+    runs-on: ubuntu-lastest
+
+    steps:
+    - name: prueba2
+      run: echo "TEST 2 CORRECTO"
